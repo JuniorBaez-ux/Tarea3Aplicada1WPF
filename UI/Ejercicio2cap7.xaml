@@ -1,0 +1,49 @@
+﻿<Window x:Class="Tarea3Aplicada1WPF.UI.Ejercicio2cap7"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:Tarea3Aplicada1WPF.UI"
+        mc:Ignorable="d"
+        Title="Ejercicio2cap7" Height="450" Width="800">
+    <Grid>
+        <StackPanel Orientation="Vertical" Margin="10">
+
+                <StackPanel Orientation="Horizontal">
+                    <Label Content="Inserte el nombre de la palabra"/>
+                    <TextBox x:Name="PalabraTextBox" Height="20" Width="100"/>
+                </StackPanel>
+
+                <StackPanel Orientation="Horizontal" Margin="0,10">
+                    <Label Content="Inserte la definicion de la palabra"/>
+                    <TextBox x:Name="DefinicionTextBox" Height="20" Width="100"/>
+                </StackPanel>
+
+                <DataGrid x:Name="DiccionarioDataGrid" >
+
+            </DataGrid>
+
+            <StackPanel Orientation="Horizontal" Margin="10,30" HorizontalAlignment="Center">
+                <Button x:Name="NuevoButton" Height="70" Width="70" Margin="15,0" VerticalAlignment="Top" VerticalContentAlignment="Bottom" Click="NuevoButton_Click">
+                    <StackPanel Orientation="Vertical">
+                        <Image  Stretch="None" Source="/UI/WhatsApp Image 2021-09-10 at 12.57.08 PM (1).jpeg"/>
+                        <Label Content="Nuevo"/>
+                    </StackPanel>
+                </Button>
+                <Button x:Name="GuardarButton" Height="70" Width="70" Margin="15,0" VerticalAlignment="Top" VerticalContentAlignment="Bottom" Click="GuardarButton_Click">
+                    <StackPanel Orientation="Vertical">
+                        <Image Source="/UI/WhatsApp Image 2021-09-10 at 12.57.09 PM (1).jpeg" Stretch="None" />
+                        <Label Content="Guardar"/>
+                    </StackPanel>
+                </Button>
+                <Button x:Name="EliminarButton" Height="70" Width="70" Margin="15,0" VerticalAlignment="Top" VerticalContentAlignment="Bottom" Click="EliminarButton_Click">
+                    <StackPanel Orientation="Vertical">
+                        <Image Source="/UI/WhatsApp Image 2021-09-10 at 12.57.09 PM.jpeg" Stretch="None" />
+                        <Label Content="Eliminar"/>
+                    </StackPanel>
+                </Button>
+            </StackPanel>
+
+        </StackPanel>
+    </Grid>
+</Window>
