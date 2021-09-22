@@ -47,11 +47,11 @@
                 <TextBox x:Name="PromedioGeneralTextBox" Height="20" Width="90" Margin="10,0"/>
             </StackPanel>
 
-            <StackPanel Orientation="Horizontal" Margin="0,10" HorizontalAlignment="Center">
+            <!--<StackPanel Orientation="Horizontal" Margin="0,10" HorizontalAlignment="Center">
                 <Button x:Name="SiguienteSalonButton" Content="Siguiente Salon" Click="SiguienteSalonButton_Click" Height="30" Width="100" Margin="30,0"/>
                 <Button x:Name="ContinuarButton" Content="Continuar" Click="ContinuarButton_Click" Height="30" Width="100" Margin="30,0"/>
                 <Button x:Name="CancelarButton" Content="Cancelar" Click="CancelarButton_Click" Height="30" Width="100" Margin="30,0"/>
-            </StackPanel>
+            </StackPanel>-->
 
             <ListBox x:Name="ListaCalificacionesListBox" Height="350" Width="350" HorizontalAlignment="Right" VerticalAlignment="Top"/>
             
